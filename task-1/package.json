@@ -1,10 +1,9 @@
 {
-  "name": "task-1",
+  "name": "task-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build:scripts": "babel ./src --out-dir=./dist"
   },
   "keywords": [],
@@ -13,9 +12,6 @@
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.18.0",
-    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
-    "@babel/plugin-transform-arrow-functions": "^7.17.12",
-    "@babel/plugin-transform-template-literals": "^7.17.12"
+    "@babel/preset-env": "^7.18.0"
   }
 }
