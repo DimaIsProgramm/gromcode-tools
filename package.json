@@ -1,5 +1,5 @@
 {
-  "name": "task-1",
+  "name": "task-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "build:styles": "sass ./src/styles/index.scss ./dist/styles.css",
     "copy:html": "cp ./src/index.html ./dist/index.html",
     "copy:scripts": "cp -R ./src/scripts ./dist/scripts",
-    "clean": "rm -rf ./dist ",
+    "clean": "rm -rf .\\dist ",
     "build": "npm-run-all clean build:styles copy:*"
   },
   "keywords": [],
